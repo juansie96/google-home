@@ -52,8 +52,21 @@ table {
 	MAIN STYLES
 	------------------- */
 
+	*,
+	*:before,
+	*:after {
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+}
+
 	a {
 		text-decoration: none;
+	}
+
+	body {
+	font-family: arial,sans-serif;
+	font-size: small;
 	}
 
 	.container-img {
@@ -69,18 +82,72 @@ table {
 
 	.header-nav {
 		float: right;
+		color: red;
+		text-decoration: none;
 	}
 
-	.main-section {
+	.header-nav a:visited {
+		color: rgba(0,0,0,0.37)
+	}
+
+
+	main {
 		padding-top: 200px;
+	}
+
+	main, #main-logo, #search-form, #mid-buttons {
+		display: block;
+		margin: 0 auto;
 		text-align: center;
 	}
 
-	.main-logo {
-		margin: auto;
+	#main-logo {
+		width: 280px;
 	}
 
-	.footer-navs-div {
+	#search-form, #mid-buttons {
+		margin-top: 20px;
+	}
+
+	.footer-top, .footer-bottom {
+		padding: 20px;
+		box-sizing: content-box;
+		background-color: rgba(0,0,0,.06);
+	}
+
+	.footer-top {
+		position: fixed;
+		bottom: 40px;
+		width: 100%;
+		border: 1px solid #e4e4e4;
+		display: inline-block;
+		height: 0px;
+ 	}
+ 
+ 	.footer-bottom {
 		position: fixed;
 		bottom: 0;
-	}
+		width: 100%;
+		display: inline-block;
+		height: 0px;
+	 }
+	 
+	 .bottom-left-nav, .bottom-right-nav {
+		 display: inline-block;
+	 }
+
+	 .bottom-left-nav, .bottom-right-nav, a {
+		margin-right: 30px;
+	 }
+
+	 .bottom-right-nav {
+		 float: right;
+		 text-align: right;
+		 width: 60%;
+		 margin-right: 40px;
+	 }
+
+	 .bottom-left-nav {
+		 width:30%;
+	 }
+ 
