@@ -69,9 +69,23 @@ table {
 	font-size: small;
 	}
 
+	li {
+		list-style-type: none;
+		display: inline-block;
+		margin: 5px;
+	}
+
+	.header-nav li {
+		width: 4%;
+	}
+
+	.header-nav li a {
+		color: rgba(0,0,0,.86);
+	}
+
 	.container-img {
-		width: 30px;
-		height: 30px;
+		width: 25px;
+		height: auto;
 		display: inline-block;
 	}
 
@@ -82,14 +96,8 @@ table {
 
 	.header-nav {
 		float: right;
-		color: red;
 		text-decoration: none;
 	}
-
-	.header-nav a:visited {
-		color: rgba(0,0,0,0.37)
-	}
-
 
 	main {
 		padding-top: 200px;
@@ -105,10 +113,33 @@ table {
 		width: 280px;
 	}
 
-	#search-form, #mid-buttons {
+	#search-google, #mid-buttons {
 		margin-top: 20px;
 	}
 
+	#search-google{
+		width: 596px;
+		height: 52px;
+		border-radius: 40px;
+		border-width: 0.5px;
+	}
+
+	#mid-buttons {
+		margin-top: 2em;
+	}
+
+	#mid-buttons input {
+		background-color: #f2f2f2;
+		color: #5F6368;
+		height: 36px;
+		width: 160px;
+		line-height: 23px;
+		margin-right: 10px;
+		border-radius: 4px;
+		font-size: 14px;
+	}
+
+	/* 596x52 */
 	.footer-top, .footer-bottom {
 		padding: 20px;
 		box-sizing: content-box;
@@ -136,7 +167,7 @@ table {
 		 display: inline-block;
 	 }
 
-	 .bottom-left-nav, .bottom-right-nav, a {
+	 .bottom-left-nav, .bottom-right-nav, li {
 		margin-right: 30px;
 	 }
 
