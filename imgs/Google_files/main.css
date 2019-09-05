@@ -52,36 +52,52 @@ table {
 	MAIN STYLES
 	------------------- */
 
-	body {
-		font-family: Arial, Helvetica, sans-serif;
-		font-size: 13px;
-	}
+	*,
+	*:before,
+	*:after {
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+}
 
-	a{
+	a {
 		text-decoration: none;
 	}
 
-	a:hover { 
-		text-decoration: underline;
+	body {
+		font-family: arial,sans-serif;
+		font-size: small;
 	}
 
-	
-	img {
-		vertical-align: middle;
+	li {
+		list-style-type: none;
+		display: inline-block;
+		margin: 5px;
+		width: fit-content;
 	}
 
-	.header-nav{
-		text-align: right;
-		margin: 20px 30px 0 0;
+	.header-nav li a {
+		color: rgba(0,0,0,.86);
 	}
 
-	.header-nav a, a:visited {
-		margin-left: 8px;
-		color: #000; opacity: 0.90;
+	.container-img {
+		width: 25px;
+		height: auto;
+		display: inline-block;
+	}
+
+	.container-img img {
+		width: 100%;
+		height: auto;
+	}
+
+	.top-right {
+		float: right;
+		text-decoration: none;
 	}
 
 	main {
-		padding-top: 147px;
+		padding-top: 200px;
 	}
 
 	main, #main-logo, #search-form, #mid-buttons {
@@ -100,10 +116,9 @@ table {
 
 	#search-google{
 		width: 596px;
-		height: 46px;
+		height: 52px;
 		border-radius: 40px;
-		border-width: 1px;
-
+		border-width: 0.5px;
 	}
 
 	#mid-buttons {
@@ -121,52 +136,45 @@ table {
 		font-size: 14px;
 	}
 
-	footer {
+	.footer-top, .footer-bottom {
+		padding: 20px;
+		box-sizing: content-box;
+		background-color: rgba(0,0,0,.06);
+	}
+
+	.footer-top {
+		position: fixed;
+		bottom: 40px;
+		width: 100%;
+		border: 1px solid #e4e4e4;
+		display: inline-block;
+		height: 0px;
+ 	}
+ 
+ 	.footer-bottom {
 		position: fixed;
 		bottom: 0;
 		width: 100%;
-	}
-
-	.country-div {
-		height: 45px;
-		background-color: #f2f2f2;
-		border-top: 1px solid #e4e4e4;
-		border-bottom: 1px solid #e4e4e4;
-	}
-
-	.country-div h4{
-		padding-top: 15px;
-		font-size: 15px;
-		color: #5f6368; 
-	}
-
-	.bottom-navs {
-		height: 45px;
-		background-color: #f2f2f2;
-	}
-
-	.bottom-left-nav, .bottom-right-nav {
-		 display: inline-block;
-	 }
-
-	 .bottom-left-nav a, .bottom-right-nav a{
-		 color: #5f6368; 
-		 display: inline-block;
-		 padding-top: 15px;
+		display: inline-block;
+		height: 0px;
 	 }
 	 
+	 .bottom-left-nav, .bottom-right-nav {
+		 display: inline-block;
+	 }
+
+	 .bottom-left-nav, .bottom-right-nav, li {
+		margin-right: 30px;
+	 }
+
 	 .bottom-right-nav {
 		 float: right;
-		 margin-right: 60px;
+		 text-align: right;
+		 width: 60%;
+		 margin-right: 40px;
 	 }
 
-	 .bottom-right-nav a {
-		 margin-left: 15px;
+	 .bottom-left-nav {
+		 width:30%;
 	 }
-
-
-	 .country-div, .bottom-left-nav > a {
-		 padding-left: 30px;
-	 }
-
-
+ 
