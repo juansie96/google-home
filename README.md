@@ -1,3 +1,4 @@
-# Google-Home Project - ##### Juan Manuel Sierra Albrecht
+# Google-Home Project  -
+##### Juan Manuel Sierra Albrecht
 
   
