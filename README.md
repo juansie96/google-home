@@ -1,2 +1,3 @@
-# google-home
-Project based on cloning the google home page
+# Google-Home Project - ##### Juan Manuel Sierra Albrecht
+
+  
