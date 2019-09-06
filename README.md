@@ -33,7 +33,11 @@
    - Basic elements ```<a> <img> <input> <div> <h1..h6>```
    
  **CSS**
-   - 
+   
+   - Typography: font-size, font-family, font-weight, text-decoration
+   - Positioning Content: margin, padding, flex, display, text-align, vertical-align
+   - Backgrounds: width, height, background (gradient, image, size, repeat, position, color)
+   - Also border properties... etc.
   
   
     
