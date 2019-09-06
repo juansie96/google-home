@@ -19,7 +19,7 @@
     4. How to properly position elements on the page using containers
     
     
-  The project helped also to reinforce my knowledge on many topics like...
+  This project also helped to reinforce my knowledge on many topics like...
 
   **GIT**
    - Basic commands *(add, status, log, commit, push)*
