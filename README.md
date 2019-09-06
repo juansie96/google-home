@@ -6,7 +6,7 @@
   This project is based from [The Odin Project's Curriculum(HTML/CSS Project)](http://www.theodinproject.com/courses/web-development-101/lessons/html-css).
   It consists on cloning Google's home main page. In my case was the Argentinian version of the page, therefore it's in Spanish.
   
-  You can see the final result [**HERE**](https://juansie96.github.io/google-home/index.html)
+  ### You can see the final result [**HERE**](https://juansie96.github.io/google-home/index.html)
 
   When I started this project i'd already basic knowledge of **HTML, CSS and Git**. Nevertheless this project challenged me in some aspects and because of that learned a few things, including:
   
